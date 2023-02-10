@@ -1,14 +1,19 @@
-import React from "react";
-import car from "../media/hero-cars-mobile.71a6ba8f42f8c5dcd6bc.png";
+import car from "../media/maincars.png";
+import mainLogo from "../media/mainlogo.svg";
 
 export default function Main() {
   return (
     <section className="main-page">
+      <div className="main-logo">
+        <a href="/">
+          <img src={mainLogo} alt="main-logo" />
+        </a>
+      </div>
       <h1>The Cheapest Taxi You've Ever Bought.</h1>
-      <h2>
+      <p>
         With Boomerang, rent a clean-air-compliant hybrid taxi from us, then
         keep it for just £1
-      </h2>
+      </p>
       <img src={car} alt="cars" className="main-page-cars" />
     </section>
   );

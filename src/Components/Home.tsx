@@ -9,17 +9,14 @@ import Footer from "./Footer";
 import HowItWorks from "./HowItWorks";
 import Intro from "./Intro";
 import Main from "./Main";
-import NavBar from "./NavBar";
 import Reviews from "./Reviews";
 
 export default function Home() {
   return (
     <div>
       <section className="home">
-        <NavBar />
         <Main />
         <Intro />
-        <Footer />
         <ExtraBenefits />
         <HowItWorks />
         <Benefits />
@@ -28,6 +25,7 @@ export default function Home() {
         <Compliance />
         <Reviews />
         <FAQ />
+        <Footer />
       </section>
     </div>
   );

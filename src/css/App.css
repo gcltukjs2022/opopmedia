@@ -2,6 +2,23 @@
   text-align: center;
 }
 
+.main-page {
+  background-image: url(../media/mainbeckground.png);
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: start;
+  min-height: 800px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* .App {
+  text-align: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +52,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
