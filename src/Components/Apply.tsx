@@ -19,8 +19,8 @@ export default function Apply() {
             <div className="apply-card-main-paragraph">
               <p>
                 In order to drive a Boomerang vehicle or any other private hire
-                / non-standard private hire, you MUST hold a valid UK Driving
-                Licence.
+                / non-standard private hire, you <strong>MUST</strong> hold a
+                valid UK Driving Licence.
               </p>
             </div>
           </div>

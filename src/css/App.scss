@@ -223,6 +223,11 @@
 .apply-main {
   display: flex;
   gap: 10px;
+  margin-bottom: 100px;
+}
+
+.apply-title {
+  margin-bottom: 50px;
 }
 
 .apply-card {
@@ -249,14 +254,15 @@
   flex-direction: column;
 }
 
-.apply-card-main-title {
+.apply-card-main-title h3 {
   display: flex;
-  margin-top: 0px;
+  margin: 0;
+  padding-top: 0px;
 }
 
 .apply-card-main-paragraph {
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-top: 5px;
+  margin: 0;
 }
