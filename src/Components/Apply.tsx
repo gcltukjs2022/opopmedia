@@ -10,7 +10,7 @@ export default function Apply() {
       <div className="apply-main">
         <div className="apply-card">
           <div className="apply-card-icon">
-            <img src={drivingLicenceImg} alt="driving-licence-imgage" />
+            <img src={drivingLicenceImg} alt="driving-licence-icon" />
           </div>
           <div className="apply-card-main">
             <div className="apply-card-main-title">
@@ -27,7 +27,7 @@ export default function Apply() {
         </div>
         <div className="apply-card">
           <div className="apply-card-icon">
-            <img src={taxiLicenceImg} alt="taxi-licence-imgage" />
+            <img src={taxiLicenceImg} alt="taxi-licence-icon" />
           </div>
           <div className="apply-card-main">
             <div className="apply-card-main-title">
