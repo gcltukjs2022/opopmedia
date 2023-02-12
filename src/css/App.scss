@@ -162,3 +162,107 @@
   align-items: center;
   justify-content: center;
 }
+
+.how-it-works {
+  display: flex;
+  align-items: center;
+  height: auto;
+  margin-top: 80px;
+  min-height: 700px;
+  width: 100%;
+  background-image: url("../media/hiwbackground.png");
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+}
+
+.howitworks-main {
+  display: flex;
+  gap: 15px;
+  justify-content: space-evenly;
+  margin: 30px 0;
+}
+
+.howitworks-item {
+  display: flex;
+}
+
+.hiw-paragraph {
+  text-align: left;
+}
+
+.hiw-icon img {
+  height: 29px;
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.benefits-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.benefits-item {
+  max-width: 200px;
+}
+
+.benefits-item img {
+  max-width: 50px;
+}
+
+.apply-main {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 100px;
+}
+
+.apply-title {
+  margin-bottom: 50px;
+}
+
+.apply-card {
+  display: flex;
+  gap: 10px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 6px 4px 16px rgb(0 0 0 / 25%);
+  height: auto;
+  margin: 8px;
+  max-width: 493px;
+  padding: 15px 11px 15px 12px;
+}
+
+.apply-card-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 101px;
+}
+
+.apply-card-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.apply-card-main-title h3 {
+  display: flex;
+  margin: 0;
+  padding-top: 0px;
+}
+
+.apply-card-main-paragraph {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 0;
+}
