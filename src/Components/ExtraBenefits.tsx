@@ -20,55 +20,91 @@ export default function ExtraBenefits() {
       <div className="extra-benefits-grid">
         <div
           className="grid-item"
-          style={{ backgroundImage: `url(${vatImg})` }}
+          style={{
+            backgroundImage: `url(${vatImg})`,
+            height: "107px",
+            backgroundRepeat: "no-repeat",
+          }}
         >
           <h2>VAT</h2>
         </div>
         <div
           className="grid-item"
-          style={{ backgroundImage: `url(${tyreImg})` }}
+          style={{
+            backgroundImage: `url(${tyreImg})`,
+            height: "107px",
+            backgroundRepeat: "no-repeat",
+          }}
         >
           <h2>Tyre Maintenance</h2>
         </div>
         <div
           className="grid-item"
-          style={{ backgroundImage: `url(${serviceImg})` }}
+          style={{
+            backgroundImage: `url(${serviceImg})`,
+            height: "107px",
+            backgroundRepeat: "no-repeat",
+          }}
         >
           <h2>Servicing</h2>
         </div>
         <div
           className="grid-item"
-          style={{ backgroundImage: `url(${brakesImg})` }}
+          style={{
+            backgroundImage: `url(${brakesImg})`,
+            height: "107px",
+            backgroundRepeat: "no-repeat",
+          }}
         >
           <h2>Brakes and Discs</h2>
         </div>
         <div
           className="grid-item"
-          style={{ backgroundImage: `url(${platesImg})` }}
+          style={{
+            backgroundImage: `url(${platesImg})`,
+            height: "107px",
+            backgroundRepeat: "no-repeat",
+          }}
         >
           <h2>Vehicle Plating & UBER Ready</h2>
         </div>
         <div
           className="grid-item"
-          style={{ backgroundImage: `url(${licenceImg})` }}
+          style={{
+            backgroundImage: `url(${licenceImg})`,
+            height: "107px",
+            backgroundRepeat: "no-repeat",
+          }}
         >
           <h2>Road Fund Licence</h2>
         </div>
         <div
           className="grid-item"
-          style={{ backgroundImage: `url(${trackerImg})` }}
+          style={{
+            backgroundImage: `url(${trackerImg})`,
+            height: "107px",
+            backgroundRepeat: "no-repeat",
+          }}
         >
           <h2>Tracker</h2>
         </div>
         <div
           className="grid-item"
-          style={{ backgroundImage: `url(${coverImg})` }}
+          style={{
+            backgroundImage: `url(${coverImg})`,
+            height: "107px",
+            backgroundRepeat: "no-repeat",
+          }}
         >
           <h2>Breakdown Cover</h2>
         </div>
         <div
           className="grid-item"
-          style={{ backgroundImage: `url(${dashcamImg})` }}
+          style={{
+            backgroundImage: `url(${dashcamImg})`,
+            height: "107px",
+            backgroundRepeat: "no-repeat",
+          }}
         >
           <h2>Front Dash Cam</h2>
         </div>

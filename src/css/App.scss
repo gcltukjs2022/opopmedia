@@ -148,19 +148,17 @@
 }
 
 .extra-benefits-grid {
+  display: grid;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  display: grid;
-  grid-template-columns: 200px 200px 200px;
-  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: repeat(3, 330px);
+  grid-template-rows: repeat(3, 107px);
 }
 
 .grid-item h2 {
   color: #fff;
-  display: block;
-  //   margin: 5px 5px 5px 5px;
-  //   padding: 5px 5px 5px 5px;
-  //   height: 107px;
-  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
