@@ -1,4 +1,6 @@
-import React from "react";
+import hiwImg1 from "../media/hiwicon1.png";
+import hiwImg2 from "../media/hiwicon2.png";
+import hiwImg3 from "../media/hiwicon3.png";
 
 export default function HowItWorks() {
   return (
@@ -6,27 +8,42 @@ export default function HowItWorks() {
       <div className="howitworks-title">
         <h1>How Boomerang Works</h1>
       </div>
-      <div className="howitworks-container">
-        <div className="howitworks1">
-          <h3>Complete our simple form</h3>
-          <p>
-            Simply complete our qualifying application to see if you can rent a
-            taxi from us.
-          </p>
+      <div className="howitworks-main">
+        <div className="howitworks-item">
+          <div className="hiw-icon">
+            <img src={hiwImg1} />
+          </div>
+          <div className="hiw-paragraph">
+            <h3>Complete our simple form</h3>
+            <p>
+              Simply complete our qualifying application to see if you can rent
+              a taxi from us.
+            </p>
+          </div>
         </div>
-        <div className="howitworks2">
-          <h3>Rent your new taxi</h3>
-          <p>
-            If you qualify, simply rent your taxi from us every week for 54
-            months.
-          </p>
+        <div className="howitworks-item">
+          <div className="hiw-icon">
+            <img src={hiwImg2} />
+          </div>
+          <div className="hiw-paragraph">
+            <h3>Rent your new taxi</h3>
+            <p>
+              If you qualify, simply rent your taxi from us every week for 54
+              months.
+            </p>
+          </div>
         </div>
-        <div className="howitworks3">
-          <h3>Buy for just £1!</h3>
-          <p>
-            Once your term has finished with Boomerang, you can then buy your
-            taxi for just £1!
-          </p>
+        <div className="howitworks-item">
+          <div className="hiw-icon">
+            <img src={hiwImg3} />
+          </div>
+          <div className="hiw-paragraph">
+            <h3>Buy for just £1!</h3>
+            <p>
+              Once your term has finished with Boomerang, you can then buy your
+              taxi for just £1!
+            </p>
+          </div>
         </div>
       </div>
       <a href="/">
