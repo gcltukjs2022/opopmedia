@@ -196,3 +196,26 @@
 .hiw-icon img {
   height: 29px;
 }
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.benefits-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.benefits-item {
+  max-width: 200px;
+}
+
+.benefits-item img {
+  max-width: 50px;
+}
