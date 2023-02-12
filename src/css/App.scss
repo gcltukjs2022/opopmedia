@@ -219,3 +219,44 @@
 .benefits-item img {
   max-width: 50px;
 }
+
+.apply-main {
+  display: flex;
+  gap: 10px;
+}
+
+.apply-card {
+  display: flex;
+  gap: 10px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 6px 4px 16px rgb(0 0 0 / 25%);
+  height: auto;
+  margin: 8px;
+  max-width: 493px;
+  padding: 15px 11px 15px 12px;
+}
+
+.apply-card-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 101px;
+}
+
+.apply-card-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.apply-card-main-title {
+  display: flex;
+  margin-top: 0px;
+}
+
+.apply-card-main-paragraph {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 5px;
+}
