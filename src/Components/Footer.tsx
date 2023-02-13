@@ -1,12 +1,14 @@
-import React from "react";
 import phoneImg from "../media/phone.png";
 import emailImg from "../media/email.png";
 import locationImg from "../media/location.png";
+import facebookImg from "../media/facebook.png";
+import backToTopImg from "../media/backtotop.png";
+import opopMediaImg from "../media/opopmedia.png";
 
 export default function Footer() {
   return (
     <section className="footer">
-      <div className="footer-basic-container">
+      <div className="footer-top-container">
         <a href="tel:01743649888">
           <img src={phoneImg} alt="phoneIcon" />
           <p>01743 649888</p>
@@ -24,40 +26,70 @@ export default function Footer() {
         </a>
       </div>
       <hr />
-      <div className="footer-detail-container">
-        <div className="footer-detail-item">
-          <h3>Head Office</h3>
-          <p>12 Yeomanry Road</p>
-          <p>Battlefield</p>
-          <p>Shrewsbury</p>
-          <p>SY1 3EH</p>
+      <div className="footer-middle-container">
+        <div className="footer-middle-top">
+          <div className="footer-middle-top-item">
+            <h3>Head Office</h3>
+            <p>12 Yeomanry Road</p>
+            <p>Battlefield</p>
+            <p>Shrewsbury</p>
+            <p>SY1 3EH</p>
+          </div>
+          <div className="footer-middle-top-item">
+            <h3>Enquiries</h3>
+            <p>Email: hello@goboomerang.co.uk</p>
+            <p>Tel: 01743 649888</p>
+          </div>
+          <div className="footer-middle-top-item">
+            <h3>Locations</h3>
+            <p>Birmingham office:</p>
+            <p>210 St Vincent St Ladywood</p>
+            <p>Birmingham, B16 8RP</p>
+          </div>
+          <div className="footer-middle-top-item">
+            <h3>Newsletter</h3>
+            <form>
+              <label htmlFor="fname"></label>
+              <input
+                type="text"
+                id="fname"
+                name="fname"
+                placeholder="your email address"
+              />
+              <button>SIGN UP</button>
+            </form>
+            <p>
+              Get the latest Boomerang news and offers directly to your inbox!
+            </p>
+          </div>
         </div>
-        <div className="footer-detail-item">
-          <h3>Enquiries</h3>
-          <p>Email: hello@goboomerang.co.uk</p>
-          <p>Tel: 01743 649888</p>
-        </div>
-        <div className="footer-detail-item">
-          <h3>Locations</h3>
-          <p>Birmingham office:</p>
-          <p>210 St Vincent St Ladywood</p>
-          <p>Birmingham, B16 8RP</p>
-        </div>
-        <div className="footer-detail-item">
-          <h3>Newsletter</h3>
-          <form>
-            <label htmlFor="fname"></label>
-            <input
-              type="text"
-              id="fname"
-              name="fname"
-              placeholder="your email address"
-            />
-            <button>SIGN UP</button>
-          </form>
+
+        <div className="footer-middle-bottom">
           <p>
-            Get the latest Boomerang news and offers directly to your inbox!
+            Boomerang Vehicle Rental Limited. Company No: 10749488 ICO number:
+            ZA759674
           </p>
+          <a
+            href="https://www.facebook.com/Boomerang-101222479203724/"
+            target="_blank"
+            className="facebook-icon"
+          >
+            <img src={facebookImg} alt="facebook-icon" />
+          </a>
+          <a href="#" className="back-to-top-btn">
+            <img src={backToTopImg} alt="back-to-top-icon" />
+          </a>
+        </div>
+      </div>
+      <div className="footer-bottom-container">
+        <div className="footer-bottom-top">
+          <p>
+            © 2021 Boomerang. All rights reserved. Developed by
+            <img src={opopMediaImg} alt="developer-icon" />
+          </p>
+        </div>
+        <div className="footer-bottom-bottom">
+          <p>Privacy Policy | GDPR Statement | Website Terms and Conditions</p>
         </div>
       </div>
     </section>
