@@ -223,6 +223,7 @@
   display: flex;
   gap: 10px;
   margin-bottom: 100px;
+  justify-content: center;
 }
 
 .apply-title {
@@ -395,4 +396,38 @@
 
 .reviews-btn {
   margin-top: 30px;
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bolder;
+  margin-bottom: 100px;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  width: 80%;
+  margin-top: 50px;
+}
+
+.faq-item-hidden {
+  display: none;
+}
+
+.faq-item {
+  border: 2px solid black;
+  align-items: center;
+  border-radius: 60px;
+  box-sizing: border-box;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 0 40px 0 40px;
 }
