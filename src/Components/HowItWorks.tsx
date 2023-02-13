@@ -11,7 +11,7 @@ export default function HowItWorks() {
       <div className="howitworks-main">
         <div className="howitworks-item">
           <div className="hiw-icon">
-            <img src={hiwImg1} />
+            <img src={hiwImg1} alt="arrow-icon" />
           </div>
           <div className="hiw-paragraph">
             <h3>Complete our simple form</h3>
@@ -23,7 +23,7 @@ export default function HowItWorks() {
         </div>
         <div className="howitworks-item">
           <div className="hiw-icon">
-            <img src={hiwImg2} />
+            <img src={hiwImg2} alt="arrow-icon" />
           </div>
           <div className="hiw-paragraph">
             <h3>Rent your new taxi</h3>
@@ -35,7 +35,7 @@ export default function HowItWorks() {
         </div>
         <div className="howitworks-item">
           <div className="hiw-icon">
-            <img src={hiwImg3} />
+            <img src={hiwImg3} alt="arrow-icon" />
           </div>
           <div className="hiw-paragraph">
             <h3>Buy for just £1!</h3>
