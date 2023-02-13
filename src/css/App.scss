@@ -483,10 +483,36 @@ a:active {
 
 .footer-middle-bottom {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 0px 10px 0px 10px;
+  align-items: center;
+  text-align: left;
 }
 
 .footer-middle-bottom img {
   max-width: 30px;
+}
+
+.footer-bottom-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.footer-bottom-top {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.footer-bottom-top img {
+  max-height: 20px;
+}
+
+.footer-bottom-bottom {
+  margin-top: 1px;
+  margin-bottom: 20px;
 }

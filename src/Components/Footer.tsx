@@ -65,32 +65,30 @@ export default function Footer() {
         </div>
 
         <div className="footer-middle-bottom">
-          <p>
-            Boomerang Vehicle Rental Limited. Company No: 10749488 ICO number:
-            ZA759674
-          </p>
+          <div className="footer-middle-bottom-details">
+            <p>Boomerang Vehicle Rental Limited.</p>
+            <p>Company No: 10749488 ICO number: ZA759674</p>
+          </div>
           <a
             href="https://www.facebook.com/Boomerang-101222479203724/"
             target="_blank"
+            rel="noopener noreferrer"
             className="facebook-icon"
           >
             <img src={facebookImg} alt="facebook-icon" />
           </a>
-          <a href="#" className="back-to-top-btn">
+          <a href="/#" className="back-to-top-btn">
             <img src={backToTopImg} alt="back-to-top-icon" />
           </a>
         </div>
       </div>
       <div className="footer-bottom-container">
         <div className="footer-bottom-top">
-          <p>
-            © 2021 Boomerang. All rights reserved. Developed by
-            <img src={opopMediaImg} alt="developer-icon" />
-          </p>
+          <p>© 2021 Boomerang. All rights reserved. Developed by |</p>
+          <img src={opopMediaImg} alt="developer-icon" />
         </div>
-        <div className="footer-bottom-bottom">
-          <p>Privacy Policy | GDPR Statement | Website Terms and Conditions</p>
-        </div>
+        <p>Privacy Policy | GDPR Statement | Website Terms and Conditions</p>
+        {/* <div className="footer-bottom-bottom"></div> */}
       </div>
     </section>
   );
