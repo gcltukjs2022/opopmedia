@@ -59,9 +59,11 @@ export default function Reviews() {
           </div>
         </div>
       </div>
-      <a href="/">
-        <button className="btn intro-btn">START NOW</button>
-      </a>
+      <div className="reviews-btn">
+        <a href="/">
+          <button className="btn reviews-btn">START NOW</button>
+        </a>
+      </div>
     </section>
   );
 }
