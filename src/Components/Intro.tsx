@@ -26,7 +26,7 @@ export default function Intro() {
           </div>
           <div className="intro-button">
             <a href="/">
-              <button className="btn intro-btn">START NOW</button>
+              <button className="btn-start-orange">START NOW</button>
             </a>
           </div>
         </div>

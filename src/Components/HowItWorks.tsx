@@ -47,7 +47,7 @@ export default function HowItWorks() {
         </div>
       </div>
       <a href="/">
-        <button className="btn hiw-btn">START NOW</button>
+        <button className="btn-start-blue">START NOW</button>
       </a>
     </section>
   );

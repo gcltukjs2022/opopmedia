@@ -1,4 +1,3 @@
-import React from "react";
 import Apply from "./Apply";
 import Benefits from "./Benefits";
 import Cars from "./Cars";

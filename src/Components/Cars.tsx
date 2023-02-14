@@ -8,7 +8,7 @@ import automatic from "../media/automatic.png";
 
 export default function Cars() {
   return (
-    <section className="cars">
+    <section className="cars" id="cars">
       <div className="cars-title">
         <h3>Check out our range of hybrid taxis</h3>
       </div>
