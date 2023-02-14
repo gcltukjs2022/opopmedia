@@ -3,14 +3,14 @@
 .App {
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  //   display: flex;
-  //   flex-direction: column;
-  //   justify-content: flex-start;
   box-sizing: border-box;
   font-family: Open Sans;
   font-style: normal;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 a:hover,
@@ -25,40 +25,176 @@ a:active {
   display: block;
 }
 
+.btn-start-blue {
+  background: linear-gradient(
+    120.92deg,
+    rgb(20, 134, 198) 20.34%,
+    rgb(130, 208, 252) 151.52%
+  );
+  box-shadow: rgb(0 0 0 / 25%) 3px 4px 6px;
+  width: 289px;
+  height: 67px;
+  border: none;
+  border-radius: 60px;
+  color: #fff;
+  cursor: "pointer";
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+}
+
+.btn-start-orange {
+  background: linear-gradient(
+    120.92deg,
+    rgb(241, 76, 15) -9.84%,
+    rgb(241, 134, 15) 65.35%
+  );
+  box-shadow: rgb(0 0 0 / 25%) 3px 4px 6px;
+  width: 289px;
+  height: 67px;
+  border: none;
+  border-radius: 60px;
+  color: #fff;
+  cursor: "pointer";
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+}
+
 .main-page {
   background-image: url(../media/mainbeckground.png);
   background-repeat: no-repeat;
+  background-size: 100% 100%;
   color: #fff;
   display: flex;
   flex-direction: column;
   height: auto;
   justify-content: start;
   min-height: 800px;
-  overflow: hidden;
-  position: relative;
+  //   overflow: hidden;
+  //   position: relative;
 }
 
 .main-top {
   //   display: flex;
   //   justify-content: space-between;
   //   margin: 5%, 0, 5%, 0;
-  align-items: center;
   display: flex;
-  flex-direction: row;
   height: auto;
   justify-content: space-between;
-  padding: 5px 115px 110px;
+  align-items: center;
+  padding: 5px 115px 50px;
   position: relative;
   width: 100%;
 }
 
-.main-logo {
-  display: block;
+// .main-logo {
+//   display: block;
+// }
+
+.navbar {
+  margin-right: 200px;
 }
 
-.nav-bar {
-  display: block;
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.navbar-item {
+  margin-right: 20px;
+}
+
+.navbar-item .active {
+  font-size: larger;
+  text-decoration: underline;
+  text-decoration-color: red;
+  font-weight: bolder;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-item a:hover {
+  font-size: larger;
+  text-decoration: underline;
+  text-decoration-color: red;
+  font-weight: bolder;
+  transition: all 0.2s ease-in-out;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  padding-left: 80px;
+  text-align: left;
+  width: 400px;
+}
+
+.main-container h1 {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 58px;
+}
+
+.main-image {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.main-page-cars {
+  position: absolute;
+  right: -100%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 70%;
+  height: auto;
+  animation: move-to-center 2s ease-in-out forwards;
+}
+
+@keyframes move-to-center {
+  0% {
+    right: -100%;
+  }
+  100% {
+    right: 45%;
+    transform: translateX(50%);
+  }
+}
+
+// .main-image {
+//   display: none;
+// }
+
+// .main-container {
+//   display: flex;
+//   text-align: left;
+//   margin-left: 200px;
+// }
+
+// .main-title h1 {
+//   font-size: 30px;
+// }
+
+// .main-image img {
+//   height: 100%;
+// }
 
 // .dropdown {
 //   position: relative;

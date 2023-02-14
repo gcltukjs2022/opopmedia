@@ -13,7 +13,7 @@ export default function Compliance() {
           with any Boomerang vehicle.
         </p>
         <a href="/">
-          <button className="btn intro-btn">START NOW</button>
+          <button className="btn-start-blue">START NOW</button>
         </a>
       </div>
     </section>

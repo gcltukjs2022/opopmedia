@@ -34,7 +34,7 @@ export default function Benefits() {
       </div>
       <div className="benefits-button">
         <a href="/">
-          <button className="btn benefit-btn">START NOW</button>
+          <button className="btn-start-orange">START NOW</button>
         </a>
       </div>
     </section>
