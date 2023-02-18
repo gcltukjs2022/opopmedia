@@ -6,7 +6,7 @@ import dropDownIcon from "../media/dropdownicon.png";
 export default function Main() {
   return (
     <section className="main-page">
-      <div className="full-screen-animation"></div>
+      {/* <div className="full-screen-animation"></div> */}
       <div className="main-top">
         <div className="main-logo">
           <a href="/">
@@ -53,7 +53,7 @@ export default function Main() {
               then keep it for just £1
             </p>
             <br />
-            <a href="/">
+            <a href="https://www.google.com">
               <button className="btn-start-blue">START NOW</button>
             </a>
           </div>

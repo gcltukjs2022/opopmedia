@@ -21,6 +21,10 @@ a:active {
   text-decoration: none;
 }
 
+button:hover {
+  transform: translateY(-6px);
+}
+
 .div {
   display: block;
 }
@@ -59,7 +63,7 @@ a:active {
   border: none;
   border-radius: 60px;
   color: #fff;
-  cursor: "pointer";
+  cursor: pointer;
   font-family: Open Sans;
   font-size: 20px;
   font-style: normal;
@@ -81,7 +85,7 @@ a:active {
   border: none;
   border-radius: 60px;
   color: #fff;
-  cursor: "pointer";
+  cursor: pointer;
   font-family: Open Sans;
   font-size: 20px;
   font-style: normal;
