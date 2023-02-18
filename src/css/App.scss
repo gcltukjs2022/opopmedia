@@ -25,6 +25,28 @@ a:active {
   display: block;
 }
 
+.full-screen-animation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  z-index: 9999;
+  animation: full-screen-animation 2s ease-in-out forwards;
+}
+
+@keyframes full-screen-animation {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
 .btn-start-blue {
   background: linear-gradient(
     120.92deg,
@@ -112,6 +134,8 @@ a:active {
 
 .navbar-item {
   margin-right: 20px;
+  font-size: smaller;
+  padding-right: 30px;
 }
 
 .navbar-item .active {
@@ -137,33 +161,34 @@ a:active {
 
 .main-container {
   display: flex;
-  flex-direction: column;
   margin-left: 80px;
   padding-left: 80px;
   text-align: left;
   width: 400px;
+  flex-grow: 1;
 }
 
 .main-container h1 {
-  font-size: 30px;
+  font-size: 47px;
   font-weight: 800;
   line-height: 58px;
 }
 
-.main-image {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  overflow: hidden;
+.main-title {
+  width: 450px;
 }
 
-.main-page-cars {
+.main-image {
+  display: flex;
+  flex-direction: column;
+  padding-top: 250px;
+  max-height: 400px;
+  margin-left: 50%;
+  overflow: hidden;
+  flex-grow: 2;
   position: absolute;
-  right: -100%;
-  top: 0;
-  bottom: 0;
   margin: auto;
-  width: 70%;
+  width: 80%;
   height: auto;
   animation: move-to-center 2s ease-in-out forwards;
 }
@@ -173,9 +198,24 @@ a:active {
     right: -100%;
   }
   100% {
-    right: 45%;
+    right: 20%;
     transform: translateX(50%);
   }
+}
+
+.main-image-cars {
+  max-width: 750px;
+}
+
+.main-image p {
+  color: black;
+  font-size: smaller;
+  text-align: right;
+}
+
+.telegraph {
+  height: 100%;
+  width: 100%;
 }
 
 // .main-image {
@@ -244,6 +284,7 @@ a:active {
   height: auto;
   justify-content: start;
   width: 100%;
+  margin-bottom: 100px;
 }
 
 .intro-container {
@@ -264,6 +305,7 @@ a:active {
   gap: 2.75rem;
   max-width: 37%;
   padding-top: 45px;
+  text-align: left;
 }
 
 .intro-button {
