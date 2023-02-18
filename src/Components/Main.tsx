@@ -6,6 +6,7 @@ import dropDownIcon from "../media/dropdownicon.png";
 export default function Main() {
   return (
     <section className="main-page">
+      {/* <div className="full-screen-animation"></div> */}
       <div className="main-top">
         <div className="main-logo">
           <a href="/">
@@ -44,26 +45,27 @@ export default function Main() {
         <div className="main-container">
           <div className="main-title">
             <h1>
-              The Cheapest Taxi <br />
-              You've Ever Bought.
+              The <u>Cheapest</u> Taxi <br />
+              You've <u>Ever</u> Bought.
             </h1>
             <p>
               With Boomerang, rent a clean-air-compliant hybrid taxi from us,
               then keep it for just £1
             </p>
-            <a href="/">
+            <br />
+            <a href="https://www.google.com">
               <button className="btn-start-blue">START NOW</button>
             </a>
           </div>
 
-          {/* <p>
-            “To all taxi drivers out there… This is the ‘best route’ for renting
-            your vehicle”
-          </p>
-          <img src={telegraph} alt="telegraph-review" /> */}
-        </div>
-        <div className="main-image">
-          <img src={carImg} alt="cars" className="main-page-cars" />
+          <div className="main-image">
+            <img src={carImg} alt="cars" className="main-image-cars" />
+            {/* <p>
+              “To all taxi drivers out there… This is the ‘best route’ for
+              renting your vehicle”
+            </p> */}
+            {/* <img className="telegraph" src={telegraph} alt="telegraph-review" /> */}
+          </div>
         </div>
       </div>
     </section>
