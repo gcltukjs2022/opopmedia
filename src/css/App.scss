@@ -13,10 +13,10 @@
   overflow-x: hidden;
 }
 
-a:hover,
-a:visited,
-a:link,
-a:active {
+a:hover:not(.faq-question-link),
+a:visited:not(.faq-question-link),
+a:link:not(.faq-question-link),
+a:active:not(.faq-question-link) {
   color: #fff;
   text-decoration: none;
 }
@@ -635,11 +635,10 @@ button:hover {
 .reviews-card-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 30px 100px 30px 100px;
+  padding: 30px 100px 80px 100px;
 }
 
 .reviews-card {
-  //   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -656,11 +655,6 @@ button:hover {
   padding: 15px 15px;
   margin: 15px 15px;
 }
-
-// .reviews-card-top {
-//   //   flex-grow: 1;
-//   //   max-height: 100px;
-// }
 
 .reviews-card-details {
   text-align: center;
@@ -684,8 +678,6 @@ button:hover {
 }
 
 .reviews-card-bottom img {
-  //   position: absolute;
-  //   bottom: 0;
   max-height: 60px;
 }
 
@@ -701,6 +693,10 @@ button:hover {
   margin-bottom: 150px;
 }
 
+.faq-title {
+  font-size: 30px;
+}
+
 .faq-container {
   display: flex;
   flex-direction: column;
@@ -710,21 +706,89 @@ button:hover {
   margin-top: 50px;
 }
 
-.faq-item-hidden {
-  display: none;
-}
-
-.faq-item {
-  border: 2px solid black;
+.faq-question {
+  display: flex;
   align-items: center;
+  position: relative;
+  border: 2px solid black;
   border-radius: 60px;
   box-sizing: border-box;
-  display: flex;
   height: 60px;
-  justify-content: space-between;
+  text-align: left;
   margin-bottom: 10px;
   width: 100%;
   padding: 0 40px 0 40px;
+}
+
+.minus-icon,
+.plus-icon {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+// .plus-icon::before {
+//   content: "+";
+// }
+
+// .minus-icon::before {
+//   content: "-";
+// }
+
+.faq-question-link {
+  display: block;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.faq-question:focus-within {
+  background-image: linear-gradient(
+    120.92deg,
+    rgb(241, 76, 15) -9.84%,
+    rgb(241, 134, 15) 65.2%
+  );
+  border: none;
+}
+
+.faq-question:focus-within .faq-question-link {
+  color: #fff;
+}
+
+.faq-answer {
+  display: none;
+  background-color: white;
+  color: black;
+  font-weight: lighter;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 200px;
+  border-left: 1px solid black;
+  animation: fadeIn 2s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.faq-answer.show {
+  display: block;
+  height: auto;
 }
 
 .footer {
