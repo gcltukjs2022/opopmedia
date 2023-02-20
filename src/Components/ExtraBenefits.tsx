@@ -112,7 +112,7 @@ export default function ExtraBenefits() {
       <div className="extra-benefits-bottom">
         <h1>
           Hand your vehicle back anytime. There’s no commitment, no financial
-          liabilities and ZERO exit fees.
+          liabilities and <span style={{ color: "red" }}>ZERO</span> exit fees.
         </h1>
       </div>
     </section>

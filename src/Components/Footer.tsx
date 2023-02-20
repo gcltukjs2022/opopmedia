@@ -55,8 +55,9 @@ export default function Footer() {
                 id="fname"
                 name="fname"
                 placeholder="your email address"
+                className="newsletter-input"
               />
-              <button>SIGN UP</button>
+              <button className="newsletter-btn">SIGN UP</button>
             </form>
             <p>
               Get the latest Boomerang news and offers directly to your inbox!
