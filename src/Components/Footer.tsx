@@ -89,7 +89,6 @@ export default function Footer() {
           <img src={opopMediaImg} alt="developer-icon" />
         </div>
         <p>Privacy Policy | GDPR Statement | Website Terms and Conditions</p>
-        {/* <div className="footer-bottom-bottom"></div> */}
       </div>
     </section>
   );

@@ -1,12 +1,18 @@
 import carImg from "../media/maincars.png";
 import mainImg from "../media/mainlogo.svg";
-import telegraph from "../media/telegraph.png";
-import dropDownIcon from "../media/dropdownicon.png";
 
 export default function Main() {
+  setTimeout(function () {
+    document.querySelector(".full-screen-animation")!.remove();
+  }, 3000);
+
   return (
     <section className="main-page">
-      {/* <div className="full-screen-animation"></div> */}
+      <div className="full-screen-animation">
+        <div className="full-screen-animation-logo">
+          <img src={mainImg} alt="main-logo" />
+        </div>
+      </div>
       <div className="main-top">
         <div className="main-logo">
           <a href="/">
@@ -14,9 +20,6 @@ export default function Main() {
           </a>
         </div>
         <div className="navbar">
-          {/* <button className="dropbtn">
-            <img src={dropDownIcon} />
-          </button> */}
           <div className="navbar-container">
             <div className="navbar-item">
               <a className="btn active" href="/">
@@ -60,11 +63,6 @@ export default function Main() {
 
           <div className="main-image">
             <img src={carImg} alt="cars" className="main-image-cars" />
-            {/* <p>
-              “To all taxi drivers out there… This is the ‘best route’ for
-              renting your vehicle”
-            </p> */}
-            {/* <img className="telegraph" src={telegraph} alt="telegraph-review" /> */}
           </div>
         </div>
       </div>
