@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Poppins:wght@400;600;700&display=swap");
 
+@media screen and (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 .App {
   font-family: "Open Sans", sans-serif;
   text-align: center;
@@ -622,8 +628,6 @@ button:hover {
 }
 
 .reviews-title {
-  //   text-align: center;
-  //   padding: 10px 200px 10px 200px;
   padding: 0px 300px 0px 300px;
 }
 
@@ -737,14 +741,6 @@ button:hover {
   font-size: 20px;
 }
 
-// .plus-icon::before {
-//   content: "+";
-// }
-
-// .minus-icon::before {
-//   content: "-";
-// }
-
 .faq-question-link {
   display: block;
   color: black;
@@ -830,6 +826,27 @@ button:hover {
 .footer-middle-top-item {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.newsletter-input {
+  background-color: #000;
+  width: 200px;
+  height: 30px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  text-align: center;
+}
+
+.newsletter-btn {
+  background-color: white;
+  color: black;
+  height: 30px;
+  width: 70px;
+  font-size: 10px;
+  font-weight: bold;
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .footer-middle-bottom {
